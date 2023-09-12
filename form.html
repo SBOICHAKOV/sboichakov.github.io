@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/form.css" rel="stylesheet">
+    <title>Формы</title>
+</head>
+<body>
+
+    <h2>Ебейший поиск на Youtube</h2>
+     <form action="https://www.youtube.com/results">
+<div>
+<label for="query">Введите запрос</label>
+<input
+type="text"
+placeholder="Запрос на котят..."
+id="query"
+name="search_query"
+/>
+
+</div>    
+<button>Искать на Youtube</button>
+
+   <div id="startForm">
+    <form action="/test">
+        <input type="email" placeholder="Email пользователя">
+        <input type="password" placeholder="password пользователя">
+        <input type="date" placeholder="Дата рождения">
+        <input type="color">
+    </form>
+</div>
+
+<div id="startForm2">
+    <form action="/test">
+        <div><label for="email">Введите email</label>
+        <input type="email" placeholder="Email пользователя" id="email"></div>
+        <div><label for="password">Введите password</label>
+        <input type="password" placeholder="password пользователя" id="password"></div>
+        <div><label for="date">Введите дату рождения</label>
+        <input type="date" placeholder="Дата рождения" id="date"></div>
+        <div><label for="color">Выбери цвет</label>
+        <input type="color" id="color"></div>
+            <div>
+                <label>
+                    Число
+                    <input type="number" placeholder="Число"/>
+                </label>
+                <button type="button">Кнопка</button>
+                <button type="reset">Кнопка reset</button>
+               
+            </div>
+    </form>
+    <button>Кнопка вне формы</button>
+</div>
+
+</body>
+</html>
